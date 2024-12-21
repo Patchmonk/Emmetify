@@ -160,13 +160,15 @@
   --ef-column-width: 8.33%; /* For a 12-column layout */
 
   /* Breakpoints */
+  --ef-gutter-width: 16px;
+  --ef-column-width: calc(100% / 12);
   --ef-breakpoint-sm: 576px;
   --ef-breakpoint-md: 768px;
   --ef-breakpoint-lg: 992px;
   --ef-breakpoint-xl: 1200px;
   --ef-breakpoint-xxl: 1400px;
-   
 }
+ 
 /* Background Color Utilities */
 .bg-primary { background-color: var(--color-primary); }
 .bg-secondary { background-color: var(--color-secondary); }
@@ -199,9 +201,6 @@
 .border-danger { border-color: var(--color-danger); }
 .border-warning { border-color: var(--color-warning); }
 .border-success { border-color: var(--color-success); }
-
-  
-
 
 /* Shadow Utilities */
 .shadow-sm { box-shadow: var(--shadow-sm); }
@@ -754,7 +753,7 @@
 /* Grid System */
 
  /* Root Variables */
-:root {
+/* :root {
   --ef-gutter-width: 16px;
   --ef-column-width: calc(100% / 12);
   --ef-breakpoint-sm: 576px;
@@ -762,7 +761,7 @@
   --ef-breakpoint-lg: 992px;
   --ef-breakpoint-xl: 1200px;
   --ef-breakpoint-xxl: 1400px;
-}
+} */
 
 /* Grid Container */
 .container {
