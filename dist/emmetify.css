@@ -114,8 +114,7 @@
   --neg-space-240: calc(var(--space-unit) * -15);    /* -240px equivalent */
   --neg-space-256: calc(var(--space-unit) * -16);    /* -256px equivalent */
 
-  /* Borders */
-  --border-unit: 1px;
+
   
   
  
@@ -129,7 +128,11 @@
   /* Define border color */
   --border-black-opacity: rgba(0, 0, 0, 0.654);
   --border-white: rgb(255, 255, 255);
-  
+
+ 
+
+    /* Borders */
+  --border-unit: 1px;
   /* Define border widths */
   --border-width-100: 1px;
   --border-width-200: 2px;
@@ -208,7 +211,12 @@
 .shadow-2xl { box-shadow: var(--shadow-2xl); }
 .shadow-none { box-shadow: none; }
 
- 
+/* ############################################### */
+/* ## 2: Mixed
+/* ############################################### */
+
+.border{border: var(--border-unit) solid var(--color-black);}
+
 /* ############################################### */
 /* ## 2: Font Transformation*/
 /* ############################################### */
@@ -281,11 +289,6 @@
 /* Emmet: .font-primary */
 .ffpri,.font-primary { font-family: var(--font-primary); }
 .ffsec,.font-secondary { font-family: var(--font-secondary); }
-
- 
- 
-
- 
 
 /* ############################################### */
 /* 4: Position Utilities */
