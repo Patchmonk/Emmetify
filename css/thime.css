@@ -1,0 +1,201 @@
+/* Global Typography Settings */
+body {
+    font-family: Inter, sans-serif;
+    color: rgb(34, 34, 34); /* Main text color */
+    line-height: 1.4;
+    margin: 20px;
+    background-color: rgb(255, 255, 255); /* Background color */
+    font-family: Inter, sans-serif;
+}
+@import url(../fonts/Inter-Italic-VariableFont_opsz\,wght.ttf);
+/* Heading Styles */
+h1 {
+ 
+    font-weight: 700;
+    letter-spacing: -0.066rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+    margin-top: 3.2rem;
+    font-size: 3rem  ;
+    font-family: Inter, sans-serif;
+    color: rgb(34, 34, 34);
+     
+}
+/* Font Family */
+
+
+/* Font Sizes */
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 1.875rem;margin-top: 1rem;
+}
+h4 {
+  font-size: 1.625rem;
+}
+h5 {
+  font-size: 1.375rem;
+}
+h6 {
+  font-size: 1.125rem;
+}
+p {
+  font-size: 1rem;
+ 
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+/* Font Weights */
+.font-light {
+  font-weight: 300;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-bold {
+  font-weight: 700;
+}
+
+/* Line Heights */
+.line-height-tight {
+  line-height: 1.2;
+}
+.line-height-normal {
+  line-height: 1.5;
+}
+.line-height-loose {
+  line-height: 1.8;
+}
+
+/* Letter Spacing */
+.letter-spacing-tight {
+  letter-spacing: -0.05rem;
+}
+.letter-spacing-normal {
+  letter-spacing: 0;
+}
+.letter-spacing-loose {
+  letter-spacing: 0.05rem;
+}
+
+/* Forum Container */
+.forum-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Forum Header */
+  .forum-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .forum-header h2 {
+    font-size: 2.25rem;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -0.066rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+    margin-top: 3.2rem;
+    color: rgb(34, 34, 34);
+  }
+  
+  .forum-header .forum-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .forum-header .forum-actions button {
+    margin-left: 1rem;
+  }
+  
+  /* Forum Posts */
+  .forum-posts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .forum-posts li {
+    margin-bottom: 2rem;
+  }
+  
+  .forum-posts li .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .forum-posts li .post-header .post-author {
+    font-weight: 500;
+  }
+  
+  .forum-posts li .post-header .post-date {
+    color: #666;
+  }
+  
+  .forum-posts li .post-content {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  
+  /* Forum Input Buttons */
+  .forum-input-button {
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .forum-input-button:hover {
+    background-color: rgb(24, 24, 24);
+  }
+  
+
+.btnr, .btn-r {
+    background: none 0% 0%  rgb(0, 0, 0);
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 13.328px;
+    padding: 11.2px 29.6px;
+    text-decoration: none solid rgb(255, 255, 255);
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 21.3248px;
+    transition: background 0.3s ease, color 0.5s ease, box-shadow 0.5s ease; 
+    border: var(--border-white100); 
+}
+
+.btnr:hover, .btn-r:hover {
+    background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: var(--shadow-md);
+    border: var(--border-black100);
+}
