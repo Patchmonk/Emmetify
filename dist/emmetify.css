@@ -794,7 +794,7 @@
   flex-grow: 0;
   flex-shrink: 0;
 }
-
+/* I'm trying with my best to support the legacy browsers that's why the code is like this  */
 /* Individual Column Widths */
 .col-1 { flex-basis: var(--ef-column-width); -ms-flex: 0 0 var(--ef-column-width); }
 .col-2 { flex-basis: calc(var(--ef-column-width) * 2); -ms-flex: 0 0 calc(var(--ef-column-width) * 2); }
