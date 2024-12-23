@@ -256,13 +256,7 @@
 .tac { text-align: center; }
 .tar { text-align: right; }
 .taj { text-align: justify; }
-
  
-/* Text Alignment Utilities */
-.tal { text-align: left; }
-.tac { text-align: center; }
-.tar { text-align: right; }
-.taj { text-align: justify; }
 
 /* Letter Spacing Utilities */
 .ttlt, .tracking-tighter { letter-spacing: -0.05em; } /* tighter */
@@ -292,7 +286,7 @@
 /* ############################################### */
 /* 4: Position Utilities */
 /* ############################################### */
-
+.acc, .centered {display: block; align-content: center;}
 .posa { position: absolute; } 
 .posr { position: relative; }  
 .posf { position: fixed; }  
