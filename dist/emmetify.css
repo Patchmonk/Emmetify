@@ -242,14 +242,7 @@
 .bs-retro, .shadow-retro {box-shadow: 4px 4px 0 #ffcc00, 8px 8px 0 #ff6600;} /* A retro-style shadow with dual colors for a vintage look */
 
 .bs-hover, .shadow-hover {box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05)} /* A subtle hover shadow for interactive elements */
-.sss{
-  min-height: 200px;
-  width: 300px;
-  height: 300px;
-  margin: 100px auto;
-  background: white;
-  border-radius: 5px;
-}
+
 /* ############################################### */
 /* ## 2: Mixed
 /* ############################################### */
@@ -916,4 +909,44 @@
   .col-lg-12 { flex-basis: 100%; -ms-flex: 0 0 100%; }
 }
 
-/* Repeat similar structure for Extra Large (xl) and Extra Extra Large (xxl) screens */
+
+/* Responsive Grid Columns ( Large Screens) */
+@media (min-width: 1200px), (min-width: var(--ef-breakpoint-xl)) {
+  .col-xl-1 { flex-basis: var(--ef-column-width); -ms-flex: 0 0 var(--ef-column-width); }
+  .col-xl-2 { flex-basis: calc(var(--ef-column-width) * 2); -ms-flex: 0 0 calc(var(--ef-column-width) * 2); }
+  .col-xl-3 { flex-basis: calc(var(--ef-column-width) * 3); -ms-flex: 0 0 calc(var(--ef-column-width) * 3); }
+  .col-xl-4 { flex-basis: calc(var(--ef-column-width) * 4); -ms-flex: 0 0 calc(var(--ef-column-width) * 4); }
+  .col-xl-5 { flex-basis: calc(var(--ef-column-width) * 5); -ms-flex: 0 0 calc(var(--ef-column-width) * 5); }
+  .col-xl-6 { flex-basis: calc(var(--ef-column-width) * 6); -ms-flex: 0 0 calc(var(--ef-column-width) * 6); }
+  .col-xl-7 { flex-basis: calc(var(--ef-column-width) * 7); -ms-flex: 0 0 calc(var(--ef-column-width) * 7); }
+  .col-xl-8 { flex-basis: calc(var(--ef-column-width) * 8); -ms-flex: 0 0 calc(var(--ef-column-width) * 8); }
+  .col-xl-9 { flex-basis: calc(var(--ef-column-width) * 9); -ms-flex: 0 0 calc(var(--ef-column-width) * 9); }
+  .col-xl-10 { flex-basis: calc(var(--ef-column-width) * 10); -ms-flex: 0 0 calc(var(--ef-column-width) * 10); }
+  .col-xl-11 { flex-basis: calc(var(--ef-column-width) * 11); -ms-flex: 0 0 calc(var(--ef-column-width) * 11); }
+  .col-xl-12 { flex-basis: 100%; -ms-flex: 0 0 100%; }
+}
+
+/* Responsive Grid Columns (Extra Screens) */
+@media (min-width: 1400px), (min-width: var(--ef-breakpoint-xxl)) {
+  .col-xxl-1 { flex-basis: var(--ef-column-width); -ms-flex: 0 0 var(--ef-column-width); }
+  .col-xxl-2 { flex-basis: calc(var(--ef-column-width) * 2); -ms-flex: 0 0 calc(var(--ef-column-width) * 2); }
+  .col-xxl-3 { flex-basis: calc(var(--ef-column-width) * 3); -ms-flex: 0 0 calc(var(--ef-column-width) * 3); }
+  .col-xxl-4 { flex-basis: calc(var(--ef-column-width) * 4); -ms-flex: 0 0 calc(var(--ef-column-width) * 4); }
+  .col-xxl-5 { flex-basis: calc(var(--ef-column-width) * 5); -ms-flex: 0 0 calc(var(--ef-column-width) * 5); }
+  .col-xxl-6 { flex-basis: calc(var(--ef-column-width) * 6); -ms-flex: 0 0 calc(var(--ef-column-width) * 6); }
+  .col-xxl-7 { flex-basis: calc(var(--ef-column-width) * 7); -ms-flex: 0 0 calc(var(--ef-column-width) * 7); }
+  .col-xxl-8 { flex-basis: calc(var(--ef-column-width) * 8); -ms-flex: 0 0 calc(var(--ef-column-width) * 8); }
+  .col-xxl-9 { flex-basis: calc(var(--ef-column-width) * 9); -ms-flex: 0 0 calc(var(--ef-column-width) * 9); }
+  .col-xxl-10 { flex-basis: calc(var(--ef-column-width) * 10); -ms-flex: 0 0 calc(var(--ef-column-width) * 10); }
+  .col-xxl-11 { flex-basis: calc(var(--ef-column-width) * 11); -ms-flex: 0 0 calc(var(--ef-column-width) * 11); }
+  .col-xxl-12 { flex-basis: 100%; -ms-flex: 0 0 100%; }
+}
+
+.sss{
+  min-height: 200px;
+  width: 300px;
+  height: 300px;
+  margin: 100px auto;
+  background: white;
+  border-radius: 5px;
+}
