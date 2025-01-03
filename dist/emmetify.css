@@ -247,6 +247,29 @@
 
 .border{border: var(--border-unit) solid var(--color-black);}
 
+/* Border Radius Shortcuts */ 
+.br0{border-radius: 0%;} 
+.br5{border-radius: 5%;} 
+.br10{border-radius: 10%;} 
+.br15{border-radius: 15%;} 
+.br20{border-radius: 20%;} 
+.br25{border-radius: 25%;} 
+.br30{border-radius: 30%;} 
+.br35{border-radius: 35%;} 
+.br40{border-radius: 40%;} 
+.br45{border-radius: 45%;} 
+.br50{border-radius: 50%;} 
+.br100, .br-round{border-radius: 100%;} 
+/* Border Radius in Pixels */ 
+.br-2{border-radius: 2px;} 
+.br-4{border-radius: 4px;} 
+.br-6{border-radius: 6px;} 
+.br-8{border-radius: 8px;} 
+.br-10{border-radius: 10px;} 
+.br-12{border-radius: 12px;} 
+.br-16{border-radius: 16px;} 
+.br-20{border-radius: 20px;}
+
  
 
 /* ############################################### */
