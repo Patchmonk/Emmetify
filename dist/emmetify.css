@@ -125,6 +125,13 @@
   --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 
+  --shadow-subtle-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-subtle-md: 0 3px 6px rgba(0, 0, 0, 0.16);
+  --shadow-subtle-lg: 0 5px 10px rgba(0, 0, 0, 0.20);
+  --shadow-subtle-xl: 0 8px 15px rgba(0, 0, 0, 0.24);
+  --shadow-subtle-2xl: 0 10px 20px rgba(0, 0, 0, 0.28);
+
+
   /* Define border color */
   --border-black-opacity: rgba(0, 0, 0, 0.654);
   --border-white: rgb(255, 255, 255);
@@ -209,6 +216,30 @@
 .shadow-xl { box-shadow: var(--shadow-xl); }
 .shadow-2xl { box-shadow: var(--shadow-2xl); }
 .shadow-none { box-shadow: none; }
+
+/* Shadow Classes for Diverse and Professional Effects */
+
+.shadow-soft {box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);} /* A soft, subtle shadow for general use */
+
+.shadow-sharp {box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.6);} /* A sharp, bold shadow for a strong visual impact */
+
+.shadow-blue {box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);} /* A blue-tinted shadow for creative and colorful effects */
+
+.shadow-pink {box-shadow: 0 4px 8px rgba(255, 20, 147, 0.3);} /* A pink-tinted shadow for playful and vibrant designs */
+
+.shadow-multi {box-shadow: 3px 3px 3px rgba(60, 64, 67, 0.3), -3px -3px 3px rgba(60, 64, 67, 0.3);} /* Multiple shadow layers for a multi-dimensional effect */
+
+.shadow-neon {box-shadow: 0 0 10px rgba(58, 255, 233, 0.6);} /* A neon glow shadow for eye-catching highlights */
+
+.shadow-3d {box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4), 6px 6px 10px rgba(0, 0, 0, 0.1);} /* A 3D shadow for depth and dimensionality */
+
+.shadow-txt {text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);} /* A subtle text shadow for enhanced readability */
+
+.shadow-inset {box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);} /* An inset shadow for inner shading effects */
+
+.shadow-retro {box-shadow: 4px 4px 0 #ffcc00, 8px 8px 0 #ff6600;} /* A retro-style shadow with dual colors for a vintage look */
+
+.shadow-hover {box-shadow: 0 12px 16px -4px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05);} /* A subtle hover shadow for interactive elements */
 
 /* ############################################### */
 /* ## 2: Mixed
