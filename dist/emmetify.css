@@ -219,7 +219,7 @@
 
 /* Shadow Classes for Diverse and Professional Effects */
 
-.shadow-soft {box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);} /* A soft, subtle shadow for general use */
+.shadow-soft {box-shadow: rgba(149, 157, 165, 0.2) 0 0 6px 0px} /* A soft, subtle shadow for general use */
 
 .shadow-sharp {box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.6);} /* A sharp, bold shadow for a strong visual impact */
 
