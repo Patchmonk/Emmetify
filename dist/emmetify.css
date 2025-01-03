@@ -229,18 +229,27 @@
 
 .bs-multi, .shadow-multi {box-shadow: 3px 3px 3px rgba(60, 64, 67, 0.3), -3px -3px 3px rgba(60, 64, 67, 0.3);} /* Multiple shadow layers for a multi-dimensional effect */
 
-.bs-shadow-neon, .shadow-neon {box-shadow: 0 0 10px rgba(58, 255, 233, 0.6);} /* A neon glow shadow for eye-catching highlights */
+.bs-neon, .shadow-neon {box-shadow: 0 0 10px rgba(58, 255, 233, 0.6);} /* A neon glow shadow for eye-catching highlights */
 
-.bs-shadow-3d, .shadow-3d {box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; } /* A 3D shadow for depth and dimensionality */
+.bs-3d, .shadow-3d { box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.2), -1px 8px 20px 0px rgba(0, 0, 0, 0.1), inset 0 0 20px 10px rgba(0, 0, 0, 0.1), inset 0 0 20px 15px rgba(0, 0, 0, 0.1);} /* A 3D shadow for depth and dimensionality */
 
-.bs-shadow-txt, .shadow-txt {text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);} /* A subtle text shadow for enhanced readability */
+.bs-border, .hadow-border{ box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 0 0px 10px rgba(0, 0, 0, 0.048);} /* Super smooth shadows via multiple comma-separated values */
 
-.bs-shadow-inse, .shadow-inset {box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);} /* An inset shadow for inner shading effects */
+.bs-txt, .shadow-txt {text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);} /* A subtle text shadow for enhanced readability */
 
-.bsshadow-retro, .shadow-retro {box-shadow: 4px 4px 0 #ffcc00, 8px 8px 0 #ff6600;} /* A retro-style shadow with dual colors for a vintage look */
+.bs-inse, .shadow-inset {box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);} /* An inset shadow for inner shading effects */
 
-.bs-shadow-hover, .shadow-hover {box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05)} /* A subtle hover shadow for interactive elements */
+.bs-retro, .shadow-retro {box-shadow: 4px 4px 0 #ffcc00, 8px 8px 0 #ff6600;} /* A retro-style shadow with dual colors for a vintage look */
 
+.bs-hover, .shadow-hover {box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05)} /* A subtle hover shadow for interactive elements */
+.sss{
+  min-height: 200px;
+  width: 300px;
+  height: 300px;
+  margin: 100px auto;
+  background: white;
+  border-radius: 5px;
+}
 /* ############################################### */
 /* ## 2: Mixed
 /* ############################################### */
