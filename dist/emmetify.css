@@ -1,5 +1,3 @@
-/* style.css */
-
 /* Minimal Reset */
 *,
 *::before,
@@ -8,7 +6,6 @@
   margin: 0;
   padding: 0; 
 }
-
  
 :root {
   /* Core Colors from Palette (Ratio: 60-30-10-10) */
@@ -114,9 +111,6 @@
   --neg-space-240: calc(var(--space-unit) * -15);    /* -240px equivalent */
   --neg-space-256: calc(var(--space-unit) * -16);    /* -256px equivalent */
 
-
-  
-  
  
   /* Shadows */
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.10) ;
@@ -219,29 +213,26 @@
 
 /* Shadow Classes for Diverse and Professional Effects */
 
-.sh-soft, .shadow-soft {box-shadow: rgba(149, 157, 165, 0.2) 0 0 6px 0px,} /* A soft, subtle shadow for general use */
+.bxshd-soft, .shadow-soft {box-shadow: rgba(149, 157, 165, 0.2) 0 0 6px 0px,} /* A soft, subtle shadow for general use */
 
-.sh-sharp, .shadow-sharp {box-shadow: rgba(0, 0, 0, 0.15) 1px 2px 4px;} /* A sharp, bold shadow for a strong visual impact */
+.bxshd-sharp, .shadow-sharp {box-shadow: rgba(0, 0, 0, 0.15) 1px 2px 4px;} /* A sharp, bold shadow for a strong visual impact */
 
-.sh-blue, .shadow-blue {box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);} /* A blue-tinted shadow for creative and colorful effects */
+.bxshd-blue, .shadow-blue {box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);} /* A blue-tinted shadow for creative and colorful effects */
 
-.sd-pink, .shadow-pink {box-shadow: 0 4px 8px rgba(255, 20, 147, 0.3);} /* A pink-tinted shadow for playful and vibrant designs */
+.bxshd-pink, .shadow-pink {box-shadow: 0 4px 8px rgba(255, 20, 147, 0.3);} /* A pink-tinted shadow for playful and vibrant designs */
 
-.bs-multi, .shadow-multi {box-shadow: 3px 3px 3px rgba(60, 64, 67, 0.3), -3px -3px 3px rgba(60, 64, 67, 0.3);} /* Multiple shadow layers for a multi-dimensional effect */
+.bxshd-multi, .shadow-multi {box-shadow: 3px 3px 3px rgba(60, 64, 67, 0.3), -3px -3px 3px rgba(60, 64, 67, 0.3);} /* Multiple shadow layers for a multi-dimensional effect */
 
-.bs-neon, .shadow-neon {box-shadow: 0 0 10px rgba(58, 255, 233, 0.6);} /* A neon glow shadow for eye-catching highlights */
+.bxshd-neon, .shadow-neon {box-shadow: 0 0 10px rgba(58, 255, 233, 0.6);} /* A neon glow shadow for eye-catching highlights */
 
-.bs-3d, .shadow-3d { box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.2), -1px 8px 20px 0px rgba(0, 0, 0, 0.1), inset 0 0 20px 10px rgba(0, 0, 0, 0.1), inset 0 0 20px 15px rgba(0, 0, 0, 0.1);} /* A 3D shadow for depth and dimensionality */
+.bxshd-3d, .shadow-3d { box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.2), -1px 8px 20px 0px rgba(0, 0, 0, 0.1), inset 0 0 20px 10px rgba(0, 0, 0, 0.1), inset 0 0 20px 15px rgba(0, 0, 0, 0.1);} /* A 3D shadow for depth and dimensionality */
 
-.bs-border, .hadow-border{ box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 0 0px 10px rgba(0, 0, 0, 0.048);} /* Super smooth shadows via multiple comma-separated values */
+.bxshd-border, .hadow-border{ box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 0 0px 10px rgba(0, 0, 0, 0.048);} /* Super smooth shadows via multiple comma-separated values */
 
-.bs-txt, .shadow-txt {text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);} /* A subtle text shadow for enhanced readability */
+.bxshd-txt, .shadow-txt {text-shadow: 22px 2px 19px rgb(0 0 0 / 28%);} /* A subtle text shadow for enhanced readability */
 
-.bs-inse, .shadow-inset {box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);} /* An inset shadow for inner shading effects */
+.bxshd-inse, .shadow-inset {box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);} /* An inset shadow for inner shading effects */
 
-.bs-retro, .shadow-retro {box-shadow: 4px 4px 0 #ffcc00, 8px 8px 0 #ff6600;} /* A retro-style shadow with dual colors for a vintage look */
-
-.bs-hover, .shadow-hover {box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05)} /* A subtle hover shadow for interactive elements */
 
 /* ############################################### */
 /* ## 2: Mixed
@@ -942,7 +933,7 @@
   .col-xxl-12 { flex-basis: 100%; -ms-flex: 0 0 100%; }
 }
 
-.sss{
+.temp-class{
   min-height: 200px;
   width: 300px;
   height: 300px;
