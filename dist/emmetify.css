@@ -483,6 +483,18 @@
 .bgwhite, .bg-white { background-color: #fff; }
 .bgrgba, .bg-rgba { background-color: rgba(255, 255, 255, 0.5); }
 
+/* Border Width Utilities */
+/* Extended Border Width Utilities */
+.bw1, .b-w1 { border-width: 1px; }
+.bw2, .b-w2 { border-width: 2px; }
+.bw3, .b-w3 { border-width: 3px; }
+.bw4, .b-w4 { border-width: 4px; }
+.bw5, .b-w5 { border-width: 5px; }
+.bw6, .b-w6 { border-width: 6px; }
+.bw7, .b-w7 { border-width: 7px; }
+.bw8, .b-w8 { border-width: 8px; }
+.bw9, .b-w9 { border-width: 9px; }
+.bw10, .b-w10 { border-width: 10px; }
 
 
 /* Margin - All sides */
