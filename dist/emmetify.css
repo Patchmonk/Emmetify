@@ -474,17 +474,24 @@
 .op25, .opacity-25 { opacity: 0.25; }
 .op0, .opacity-0 { opacity: 0; }
 
-/* Color Utilities */
-.cblack, .c-black { color: #000; }
-.crgb, .c-rgb { color: rgb(0, 0, 0); }
-.crgba, .c-rgba { color: rgba(0, 0, 0, 0.5); }
+/* Background Color Utilities */
+.bgwhite, .bg-white { background-color: #fff; }
+.bgblack, .bg-black { background-color: #000; }
+.bggray, .bg-gray { background-color: #808080; }
+.bgred, .bg-red { background-color: #ff0000; }
+.bgblue, .bg-blue { background-color: #0000ff; }
+.bggreen, .bg-green { background-color: #008000; }
+
 
 /* Background Color Utilities */
 .bgwhite, .bg-white { background-color: #fff; }
-.bgrgba, .bg-rgba { background-color: rgba(255, 255, 255, 0.5); }
+.bgblack, .bg-black { background-color: #000; }
+.bggray, .bg-gray { background-color: #808080; }
+.bgred, .bg-red { background-color: #ff0000; }
+.bgblue, .bg-blue { background-color: #0000ff; }
+.bggreen, .bg-green { background-color: #008000; }
 
-/* Border Width Utilities */
-/* Extended Border Width Utilities */
+/* Border Width Utilities (Extended to 10px) */
 .bw1, .b-w1 { border-width: 1px; }
 .bw2, .b-w2 { border-width: 2px; }
 .bw3, .b-w3 { border-width: 3px; }
@@ -495,6 +502,7 @@
 .bw8, .b-w8 { border-width: 8px; }
 .bw9, .b-w9 { border-width: 9px; }
 .bw10, .b-w10 { border-width: 10px; }
+
 
 
 /* Margin - All sides */
