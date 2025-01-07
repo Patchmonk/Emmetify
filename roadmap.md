@@ -1,7 +1,7 @@
 # Emmetify CSS Framework Roadmap
 
 ## Introduction
-This roadmap outlines the progress and future plans for the Emmetify CSS Framework. It helps contributors understand what has been covered so far and what features are planned for future releases.
+This roadmap outlines the progress and future plans for the Emmetify CSS Framework.
 
 ## Completed Features
 - [x] **Display Utilities**: ✓ Covered
