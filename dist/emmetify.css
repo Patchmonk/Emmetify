@@ -474,6 +474,14 @@
 .op25, .opacity-25 { opacity: 0.25; }
 .op0, .opacity-0 { opacity: 0; }
 
+/* Color Utilities */
+.cblack, .c-black { color: #000; }
+.crgb, .c-rgb { color: rgb(0, 0, 0); }
+.crgba, .c-rgba { color: rgba(0, 0, 0, 0.5); }
+
+/* Background Color Utilities */
+.bgwhite, .bg-white { background-color: #fff; }
+.bgrgba, .bg-rgba { background-color: rgba(255, 255, 255, 0.5); }
 
 
 
