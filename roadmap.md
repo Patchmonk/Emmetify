@@ -1,7 +1,12 @@
 # Emmetify CSS Framework Roadmap
 
 ## Introduction
-This roadmap outlines the progress and future plans for the Emmetify CSS Framework.
+Welcome to the Emmetify CSS Framework! This project is a labor of love, developed in my spare time. My goal is to create a simple, intuitive, and flexible CSS framework that helps developers prototype and build faster.
+
+As a solo developer, I work on this project when I have the time. I truly appreciate any contributions, feedback, or support from the community. Your involvement can make a big difference in improving and expanding the framework.
+
+Feel free to dive in, explore, and contribute! Together, we can make the Emmetify CSS Framework even better. 😊
+
 
 ## Completed Features
 - [x] **Display Utilities**: ✓ Covered
