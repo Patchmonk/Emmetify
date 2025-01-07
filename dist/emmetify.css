@@ -384,11 +384,11 @@
 .db, .d-block { display: block; }
 .di, .d-inline { display: inline; }
 .dib, .d-inline-block { display: inline-block; }
-.df, .d-flex { display: flex; } /* Included again in Flex Utilities */
-.dif, .d-inline-flex { display: inline-flex; } /* Included again in Flex Utilities */
+.df, .d-flex { display: flex; }
+.dif, .d-inline-flex { display: inline-flex; }
 .dg, .d-grid { display: grid; }
 .dig, .d-inline-grid { display: inline-grid; }
-.dn, .d-none { display: none; }
+.dn, .d-none { display: none; } /* Consolidated to .dn */
 .dt, .d-table { display: table; }
 .dtr, .d-table-row { display: table-row; }
 .dtc, .d-table-cell { display: table-cell; }
@@ -410,6 +410,7 @@
 .dtc, .d-table-cell { display: table-cell; }
 
 
+
 @media (min-width: 576px) {
   .sm-db { display: block; }
   .sm-di { display: inline; }
@@ -418,7 +419,7 @@
   .sm-dif { display: inline-flex; }
   .sm-dg { display: grid; }
   .sm-dig { display: inline-grid; }
-  .sm-dn { display: none; }
+  .sm-dn { display: none; } /* Use .sm-dn instead of .sm-d-none */
   .sm-dt { display: table; }
   .sm-dtr { display: table-row; }
   .sm-dtc { display: table-cell; }
@@ -432,7 +433,7 @@
   .md-dif { display: inline-flex; }
   .md-dg { display: grid; }
   .md-dig { display: inline-grid; }
-  .md-dn { display: none; }
+  .md-dn { display: none; } /* Use .md-dn instead of .md-d-none */
   .md-dt { display: table; }
   .md-dtr { display: table-row; }
   .md-dtc { display: table-cell; }
@@ -446,7 +447,7 @@
   .lg-dif { display: inline-flex; }
   .lg-dg { display: grid; }
   .lg-dig { display: inline-grid; }
-  .lg-dn { display: none; }
+  .lg-dn { display: none; } /* Use .lg-dn instead of .lg-d-none */
   .lg-dt { display: table; }
   .lg-dtr { display: table-row; }
   .lg-dtc { display: table-cell; }
@@ -460,11 +461,20 @@
   .xl-dif { display: inline-flex; }
   .xl-dg { display: grid; }
   .xl-dig { display: inline-grid; }
-  .xl-dn { display: none; }
+  .xl-dn { display: none; } /* Use .xl-dn instead of .xl-d-none */
   .xl-dt { display: table; }
   .xl-dtr { display: table-row; }
   .xl-dtc { display: table-cell; }
 }
+
+/* Opacity Utilities  */
+.op100, .opacity-100 { opacity: 1; }
+.op75, .opacity-75 { opacity: 0.75; }
+.op50, .opacity-50 { opacity: 0.5; }
+.op25, .opacity-25 { opacity: 0.25; }
+.op0, .opacity-0 { opacity: 0; }
+
+
 
 
 /* Margin - All sides */
