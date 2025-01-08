@@ -466,6 +466,10 @@
   .xl-dtr { display: table-row; }
   .xl-dtc { display: table-cell; }
 }
+/* Overflow Utilities */
+.ofv, .overflow-visible { overflow: visible; }
+.ofh, .overflow-hidden { overflow: hidden; }
+.ofs, .overflow-scroll { overflow: scroll; }
 
 /* Opacity Utilities  */
 .op100, .opacity-100 { opacity: 1; }
@@ -473,6 +477,7 @@
 .op50, .opacity-50 { opacity: 0.5; }
 .op25, .opacity-25 { opacity: 0.25; }
 .op0, .opacity-0 { opacity: 0; }
+
 
 /* Background Color Utilities */
 .bgwhite, .bg-white { background-color: #fff; }
