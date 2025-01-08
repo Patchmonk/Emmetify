@@ -471,6 +471,13 @@
 .ofh, .overflow-hidden { overflow: hidden; }
 .ofs, .overflow-scroll { overflow: scroll; }
 
+/* Cursor Utilities */
+.c-p, .cursor-pointer { cursor: pointer; }
+.c-d, .cursor-default { cursor: default; }
+.c-na, .cursor-not-allowed { cursor: not-allowed; }
+
+
+
 /* Opacity Utilities  */
 .op100, .opacity-100 { opacity: 1; }
 .op75, .opacity-75 { opacity: 0.75; }
