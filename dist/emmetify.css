@@ -476,7 +476,12 @@
 .cd, .cursor-default { cursor: default; }
 .cna, .cursor-not-allowed { cursor: not-allowed; }
 
-
+/* Flexbox Alignment Utilities */
+.aifs, .flex-start { align-items: flex-start; }
+.aife, .flex-end { align-items: flex-end; }
+.aic, .center { align-items: center; }
+.jcsb, .space-between { justify-content: space-between; }
+.jcsa, .space-around { justify-content: space-around; }
 
 /* Opacity Utilities  */
 .op100, .opacity-100 { opacity: 1; }
