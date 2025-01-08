@@ -472,9 +472,9 @@
 .ofs, .overflow-scroll { overflow: scroll; }
 
 /* Cursor Utilities */
-.c-p, .cursor-pointer { cursor: pointer; }
-.c-d, .cursor-default { cursor: default; }
-.c-na, .cursor-not-allowed { cursor: not-allowed; }
+.cp, .cursor-pointer { cursor: pointer; }
+.cd, .cursor-default { cursor: default; }
+.cna, .cursor-not-allowed { cursor: not-allowed; }
 
 
 
