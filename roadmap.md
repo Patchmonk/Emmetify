@@ -22,6 +22,7 @@ Feel free to dive in, explore, and contribute! Together, we can make the Emmetif
 - [x] **Overflow Utilities**: ✓ Covered 
 - [x] **Cursor Utilities**: ✓ Covered
 - [x] **Flexbox Alignment Utilities**: ✓ Covered
+- [x] **Z-Index Utilities**: ✓ Covered
 - [x] **Opacity Utilities**: ✓ Covered
 - [x] **Color Utilities**: ✓ Covered
 - [x] **Background Color Utilities**: ✓ Covered
