@@ -1,0 +1,21 @@
+/* Width: w* */
+.w-a    { width: auto; }
+.w25p   { width: 25%; }
+.w50p   { width: 50%; }
+.w75p   { width: 75%; }
+.w100p  { width: 100%; }
+.w100vw { width: 100vw; }
+
+/* Max Width: mw* */
+.mw100p { max-width: 100%; }
+
+/* Height: h* */
+.h-a    { height: auto; }
+.h50p   { height: 50%; }
+.h100p  { height: 100%; }
+.h100vh { height: 100vh; }
+.h100svh{ height: 100svh; }
+
+/* Min Height: mh* */
+.mh100vh { min-height: 100vh; }
+.mh100svh{ min-height: 100svh; }

@@ -54,5 +54,17 @@
 .wp { white-space: pre; }
 .wb { white-space: break-spaces; }
 
-.tof { text-overflow: clip; }
-.toe { text-overflow: ellipsis; }
+  /* White Space: whs* */
+  .whs-nw { white-space: nowrap; }
+  .whs-n  { white-space: normal; }
+
+  /* Text Overflow: tov* */
+  .tov-e  { text-overflow: ellipsis; }
+  .tov-c  { text-overflow: clip; }
+
+  /* Truncation Utility */
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }

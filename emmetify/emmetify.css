@@ -1,13 +1,14 @@
 @layer reset, tokens, layout, utilities, components, animations;
 
-@import './core/reset.css';
-@import './core/tokens.css';
-@import './utilities/display.css';
-@import './utilities/position.css';
-@import './utilities/flexbox-grid.css';
-@import './utilities/spacing.css';
-@import './utilities/typography.css';
-@import './utilities/borders.css';
-@import './utilities/effects.css';
-@import './components/media.css';
-@import './modules/animations.css';
+@import "./core/reset.css" layer(reset);
+@import "./core/tokens.css" layer(tokens);
+@import "./utilities/display.css" layer(utilities);
+@import "./utilities/position.css" layer(utilities);
+@import "./utilities/sizing.css" layer(utilities);
+@import "./utilities/flexbox-grid.css" layer(layout);
+@import "./utilities/spacing.css" layer(utilities);
+@import "./utilities/typography.css" layer(utilities);
+@import "./utilities/borders.css" layer(utilities);
+@import "./utilities/effects.css" layer(utilities);
+@import "./components/media.css" layer(components);
+@import "./modules/animations.css" layer(animations);

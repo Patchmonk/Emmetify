@@ -42,3 +42,6 @@
 .zi20 { z-index: 20; }
 .zi50 { z-index: 50; }
 .zi100 { z-index: 100; }
+
+  /* Inset: ins* (Modal backdrops and full overlays) */
+  .ins0 { inset: 0; }

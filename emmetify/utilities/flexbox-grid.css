@@ -94,6 +94,18 @@
   .col\@md-12 { flex: 0 0 100%; max-width: 100%; }
 }
 
+  /* Flex Grow: fxg* */
+  .fxg0 { flex-grow: 0; }
+  .fxg1 { flex-grow: 1; }
+
+  /* Flex Shrink: fxs* (Prevents avatar/icon squishing) */
+  .fxs0 { flex-shrink: 0; }
+  .fxs1 { flex-shrink: 1; }
+
+  /* Flex Shorthand: fx* */
+  .fx1  { flex: 1 1 0%; }
+  .fx-a { flex: 1 1 auto; }
+
 @media (width >= 64em) {
   .col\@lg-1 { flex: 0 0 calc(100% / 12 * 1); max-width: calc(100% / 12 * 1); }
   .col\@lg-2 { flex: 0 0 calc(100% / 12 * 2); max-width: calc(100% / 12 * 2); }
