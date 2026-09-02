@@ -1,0 +1,52 @@
+.bgc { background-color: var(--c-primary); }
+.bgc-g { background-color: var(--c-gray-100); }
+.bgc-w { background-color: var(--c-white); }
+.bgc-b { background-color: var(--c-black); }
+.bgcv { background-color: transparent; }
+
+.bgi { background-image: none; }
+
+.bgp { background-position: center; }
+.bgp-tl { background-position: top left; }
+.bgp-tr { background-position: top right; }
+.bgp-bl { background-position: bottom left; }
+.bgp-br { background-position: bottom right; }
+
+.bgr { background-repeat: no-repeat; }
+.bgrx { background-repeat: repeat-x; }
+.bgry { background-repeat: repeat-y; }
+
+.bgs { background-size: cover; }
+.bgc-b { background-size: contain; }
+
+.c { color: var(--c-primary); }
+.c-g { color: var(--c-gray-500); }
+.c-w { color: var(--c-white); }
+.c-b { color: var(--c-black); }
+
+.cu { cursor: pointer; }
+.cd { cursor: default; }
+.cn { cursor: none; }
+
+.op0 { opacity: 0; }
+.op10 { opacity: 0.1; }
+.op25 { opacity: 0.25; }
+.op50 { opacity: 0.5; }
+.op75 { opacity: 0.75; }
+.op100 { opacity: 1; }
+
+.of { overflow: hidden; }
+.oxh { overflow-x: hidden; }
+.oya { overflow-y: auto; }
+.ovs { overflow: visible; }
+
+.ovw { overflow-wrap: break-word; }
+
+.bsn { box-shadow: none; }
+.bxshd-sm { box-shadow: var(--shadow-sm); }
+.bxshd-md { box-shadow: var(--shadow-md); }
+.bxshd-lg { box-shadow: var(--shadow-lg); }
+.bxshd-xl { box-shadow: var(--shadow-xl); }
+.bxshd-soft { box-shadow: 0 2px 8px rgb(0 0 0 / 0.08); }
+.bxshd-neon { box-shadow: 0 0 12px var(--c-primary), 0 0 24px var(--c-primary); }
+.bxshd-inset { box-shadow: inset 0 2px 4px rgb(0 0 0 / 0.06); }

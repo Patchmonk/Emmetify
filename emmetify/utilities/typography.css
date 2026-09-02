@@ -1,0 +1,58 @@
+.fz10 { font-size: 0.625rem; }
+.fz12 { font-size: 0.75rem; }
+.fz14 { font-size: 0.875rem; }
+.fz16 { font-size: 1rem; }
+.fz18 { font-size: 1.125rem; }
+.fz20 { font-size: 1.25rem; }
+.fz24 { font-size: 1.5rem; }
+.fz30 { font-size: 1.875rem; }
+.fz36 { font-size: 2.25rem; }
+.fz48 { font-size: 3rem; }
+.fz60 { font-size: 3.75rem; }
+.fz72 { font-size: 4.5rem; }
+
+.fw300 { font-weight: 300; }
+.fw400 { font-weight: 400; }
+.fw500 { font-weight: 500; }
+.fw600 { font-weight: 600; }
+.fw700 { font-weight: 700; }
+.fw800 { font-weight: 800; }
+.fw900 { font-weight: 900; }
+
+.lh1 { line-height: 1; }
+.lh1\.2 { line-height: 1.2; }
+.lh1\.5 { line-height: 1.5; }
+.lh1\.8 { line-height: 1.8; }
+.lh2 { line-height: 2; }
+
+.tal { text-align: left; }
+.tac { text-align: center; }
+.tar { text-align: right; }
+.taj { text-align: justify; }
+
+.ttu { text-transform: uppercase; }
+.ttl { text-transform: lowercase; }
+.ttc { text-transform: capitalize; }
+.ttn { text-transform: none; }
+
+.tdu { text-decoration: underline; }
+.tdn { text-decoration: none; }
+.tdl { text-decoration: line-through; }
+
+.fs { font-style: normal; }
+.fi { font-style: italic; }
+
+.fw { font-weight: normal; }
+.fb { font-weight: bold; }
+
+.ls1 { letter-spacing: 0.025em; }
+.ls2 { letter-spacing: 0.05em; }
+.ls4 { letter-spacing: 0.1em; }
+
+.ww { white-space: normal; }
+.wnw { white-space: nowrap; }
+.wp { white-space: pre; }
+.wb { white-space: break-spaces; }
+
+.tof { text-overflow: clip; }
+.toe { text-overflow: ellipsis; }

@@ -1,0 +1,41 @@
+.dn { display: none; }
+.dib { display: inline-block; }
+.di { display: inline; }
+.db { display: block; }
+.df { display: flex; }
+.dg { display: grid; }
+.dt { display: table; }
+.dtc { display: table-cell; }
+.dtr { display: table-row; }
+
+@media (width >= 40em) {
+  .dn\@sm { display: none; }
+  .dib\@sm { display: inline-block; }
+  .db\@sm { display: block; }
+  .df\@sm { display: flex; }
+  .dg\@sm { display: grid; }
+}
+
+@media (width >= 48em) {
+  .dn\@md { display: none; }
+  .dib\@md { display: inline-block; }
+  .db\@md { display: block; }
+  .df\@md { display: flex; }
+  .dg\@md { display: grid; }
+}
+
+@media (width >= 64em) {
+  .dn\@lg { display: none; }
+  .dib\@lg { display: inline-block; }
+  .db\@lg { display: block; }
+  .df\@lg { display: flex; }
+  .dg\@lg { display: grid; }
+}
+
+@media (width >= 80em) {
+  .dn\@xl { display: none; }
+  .dib\@xl { display: inline-block; }
+  .db\@xl { display: block; }
+  .df\@xl { display: flex; }
+  .dg\@xl { display: grid; }
+}

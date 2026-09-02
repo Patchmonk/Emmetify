@@ -1,0 +1,28 @@
+{
+  "name": "emmetify-css",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch"
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patchmonk/Emmetify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patchmonk/Emmetify/issues"
+  },
+  "homepage": "https://github.com/Patchmonk/Emmetify#readme",
+  "devDependencies": {
+    "browserslist": "^4.28.8",
+    "lightningcss": "^1.33.0"
+  }
+}

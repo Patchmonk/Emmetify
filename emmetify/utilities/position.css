@@ -1,0 +1,44 @@
+.posa { position: absolute; }
+.posr { position: relative; }
+.posf { position: fixed; }
+.posst { position: sticky; }
+.posstatic { position: static; }
+
+.t0 { top: 0; }
+.t1 { top: var(--s1); }
+.t2 { top: var(--s2); }
+.t4 { top: var(--s4); }
+.t8 { top: var(--s8); }
+.t50p { top: 50%; }
+.t100p { top: 100%; }
+
+.r0 { right: 0; }
+.r1 { right: var(--s1); }
+.r2 { right: var(--s2); }
+.r4 { right: var(--s4); }
+.r8 { right: var(--s8); }
+.r50p { right: 50%; }
+.r100p { right: 100%; }
+
+.b0 { bottom: 0; }
+.b1 { bottom: var(--s1); }
+.b2 { bottom: var(--s2); }
+.b4 { bottom: var(--s4); }
+.b8 { bottom: var(--s8); }
+.b50p { bottom: 50%; }
+.b100p { bottom: 100%; }
+
+.l0 { left: 0; }
+.l1 { left: var(--s1); }
+.l2 { left: var(--s2); }
+.l4 { left: var(--s4); }
+.l8 { left: var(--s8); }
+.l50p { left: 50%; }
+.l100p { left: 100%; }
+
+.zi0 { z-index: 0; }
+.zi1 { z-index: 1; }
+.zi10 { z-index: 10; }
+.zi20 { z-index: 20; }
+.zi50 { z-index: 50; }
+.zi100 { z-index: 100; }

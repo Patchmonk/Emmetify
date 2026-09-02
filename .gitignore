@@ -1,4 +1,2 @@
-
-info.md
-index.html
-test.html
+node_modules
+dist/*.map
